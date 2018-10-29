@@ -1,8 +1,5 @@
 ﻿杀杀杀jiajajaj 
-srssssssssssssssssssss
 
-
-88888
 private String convert(String ipSegment) {
 		String[] ips = ipSegment.split("/");
 		if (Integer.parseInt(ips[1]) > 24 && !ips[0].contains(":")) {

@@ -1,8 +1,5 @@
 ﻿杀杀杀jiajajaj 
-srssssssssssssssssssss
 
-
-88888
 private String convert(String ipSegment) {
 		String[] ips = ipSegment.split("/");
 		if (Integer.parseInt(ips[1]) > 24 && !ips[0].contains(":")) {
@@ -19,3 +16,5 @@ public List<String> query(Function<QueryParam, String> invoker, String appCode, 
 		}
 		return query(invoker, appCode, serviceName, fieldName, ImmutableMap.of(paramName, paramValue));
 	}
+
+
